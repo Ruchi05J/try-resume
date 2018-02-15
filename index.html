@@ -1,0 +1,196 @@
+<!DOCTYPE html>
+<html lang="en" >
+
+<head>
+  <meta charset="UTF-8">
+  <title>RESUME </title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <link rel='stylesheet prefetch' href='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.min.css'>
+<link rel='stylesheet prefetch' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+<link rel='stylesheet prefetch' href='https://fonts.googleapis.com/css?family=Raleway:500,600,700"'>
+
+      <link rel="stylesheet" href="css/style.css">
+
+  
+</head>
+
+<body>
+
+  <!-- Navbar -->
+<nav class="navbar navbar-inverse navbar-fixed-top">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#myNavbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <!-- <a class="navbar-brand" href="#indexPage">
+        <img src="image/apple-icon-57x57"> 
+      </a> -->
+    </div>
+    <div class="collapse navbar-collapse" id="myNavbar">
+      <ul class="nav navbar-nav navbar-right">
+        <li><a href="#aboutPage">Education</a></li>
+        <li><a href="#skillsPage"><i class="fa fa-info-circle"></i> Skills</a></li>
+        <li><a  href="#contactPage"><i class=class="fa fa-envelope"></i>Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Title/Index Page -->
+<div class="container-fluid content" id="indexPage">
+  <div class="container-fluid">
+    <div id="content">
+      <div class="container">
+        <div class="col-md-4">
+          <div class="img-div">
+            <img src="image/brand pic1.jpg" class="img-circle mx-auto img-responsive" alt="">
+          </div>
+        </div>
+        <div class="col-md-8">
+          <p style="color: #DC143C">Hello, i'm Ruchi</p>
+          <p style="color: #6495ED">
+            I'm an aspiring Web Developer who emphasizes modern & sleek design <i class="fa fa-exclamation"></i>
+          </p>
+          <div id="callToActionButtons">
+            <div class="row">
+              <div class="col-xs-4">
+                <a href="#aboutPage"><button class="modernBtn">Experience</button></a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#interestPage"><button class="modernBtn">Interest</button></a>
+              </div>
+              <div class="col-xs-4">
+                <a href="#contactPage"><button class="modernBtn">Contact Me</button></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<!-- About Page -->
+<div class="container-fluid content" id="aboutPage">
+  <div class="container-fluid banner">
+    <div class="container">
+      <header>
+        A bit of educational information about me...<br> 
+      </header>
+      
+    </div>
+  </div>
+  <div class="container-fluid afterBanner" id="info">
+    <div class="container">
+         
+          I’m currently a final year student pursuing my Bachelors in Computer Science while simultaneously learning various aspects of Web Development through a combination of self-study and online codecamps and hours in front of a screen. I'm currently trying to fill my lack professional experience by seeking out internships/co-ops/entry level positions in the field so I learn more about the field I want to have a career in.
+    
+  </div>
+  </div>
+</div>
+
+<!--Interest page-->
+<div class="container-fluid content" id="interestPage">
+  <div class="container-fluid banner">
+    <div class="container">
+      <header>
+        A bit of information about me, stay tuned...<br> 
+      </header>
+      <a href="#indexPage">
+        <button class="modernBtn">
+          View Resume
+        </button></a>
+     </div>
+  </div>      
+   <div class="container-fluid afterBanner" id="info">
+  
+
+    
+     <div class="container"> 
+    <div class="ruchi">
+          I like to read books, listen music and travel new places. 
+    </div>
+  </div>
+</div>
+
+    
+  </div>
+
+<!-- Skills Page -->
+<div class="container-fluid content" id="skillsPage">
+  <div class="container-fluid">
+    <div class="jumbotron banner">
+      <div class="container">
+        <header>
+          I have a good knowledge about HTML, CSS, Java Script and frameworks like bootstrap. I'm  also comfortable with java, c, c++.
+        </header>
+        <a href="#contactPage">
+          <button class="modernBtn">Hit Me Up!!</button>
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+    
+        <!-- <!-- Project Cards -->
+        <div class="col-lg-12">
+          <div class="panel panel-default card">
+            <div class="panel-body">
+              <img src="image/post01.jpg" class="img-responsive" alt="Server-Backed Portfolio">
+            </div>
+          </div>
+
+     <!-- Contact Me Page -->
+  <div class="container-fluid content" id="contactPage">
+    <div class="container-fluid banner">
+      <div class="container1">
+        <header>
+          Contact me here regarding any questions/comments you have about my resume/experiences.
+        </header>
+      </div>
+    </div></div>
+    <!-- Contact form -->
+    <div class="container-fluid afterBanner" id="info">
+      <div class="container" id="form">
+        <form method="POST" action="http://formspree.io/2kinsight16@gmail.com">
+          <div class="form-group">
+            <label for="name">Name</label>
+            <input placeholder="required" type="text" class="form-control" id="name" name="name" required>
+          </div>
+          <div class="form-group">
+            <label for="email">Email</label>
+            <input placeholder="required" type="email" class="form-control" id="email" name="email" required>
+          </div>
+          <div class="form-group">
+            <label for="phoneNumber">Phone Number</label>
+            <input class="form-control" id="phoneNumber" name="number" placeholder="xxx-xxx-xxxx (optional)">
+          </div>
+          <div class="form-group">
+            <label for="message">Message</label>
+            <textarea name="message" placeholder="required" class="form-control" rows="6"></textarea>
+          </div>
+          <input type="hidden" name="_next" value="#"/>
+          <button type="submit" class="btn btn-primary">Send</button>
+        </form>
+      </div>
+    </div>
+  </div>
+
+
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script>
+<script src='https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/js/bootstrap.min.js'></script>
+
+  
+
+    <script  src="js/index.js"></script>
+
+
+
+
+</body>
+
+</html>
